@@ -5,4 +5,9 @@ favorite_languages = {
        'phil': ['python', 'haskell'],
        }
 
-print (favorite_languages['edward'][1])
+
+for user in  favorite_languages:
+    print (user + ":")
+    for languages in favorite_languages[user]:
+        print ("\t\t" + languages.upper())
+
