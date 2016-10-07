@@ -1,4 +1,4 @@
-def cars (company, model, **extra_vars):
+def cars (company, model="SX4", **extra_vars):
     print (model + "\t" + company )
     for key,value in extra_vars.items():
         print ("\t" + key + "\t\t" + value)

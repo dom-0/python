@@ -1,11 +1,6 @@
-toppings = ["extra cheese", "peperoni", "salami"]
-user_requests = ["peperoni", "fries", "Salami"]
+import mod_pizza
 
-for user_request in user_requests:
-    if user_request.lower() in toppings:
-        print ("Added " + user_request)
-    else:
-        print ("Weird request, you do not add '" + user_request + "' in a pizza")
+mod_pizza.make_pizza(12)
+mod_pizza.make_pizza(16, 'mushrooms', 'pepperoni', 'peppers')
+mod_pizza.make_pizza(12, 'salami', 'cheese')
 
-list = [x.title() for x in toppings]
-print (list)
