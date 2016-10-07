@@ -1,8 +1,8 @@
-cars = ["audi", "bmw", "honda", "tesla"]
+def cars (company, model, **extra_vars):
+    print (model + "\t" + company )
+    for key,value in extra_vars.items():
+        print ("\t" + key + "\t\t" + value)
+    print "\n"
 
-for car in cars:
-    if car == 'bmw':
-        print (car.upper())
-    else:
-        print (car.lower())
-
+cars("BMW", "X5")
+cars("Mercedes", "SVR4", NO2='Yes', Engraved='With Name')
