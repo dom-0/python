@@ -1,22 +1,25 @@
-names = {'Arnab': 'Sen',
-         'Sudeshna': 'Sen',
-         'X': 'Abcd',
-         'Y': 'XYZ',
-         'Z': 'Abcd'
-        }
+data = {}
 
-surnames = {}
+print ("Enter your details...")
+print ("To quit, type quit !!!")
 
-for name in names:
-    list = []
-    list.append(name)
+while True:
+    fname = raw_input("Enter your first name: ")
+    lname = raw_input("Enter your last name: ")
 
-    try:
-      #surnames[names[name]].extend(list) # either of them should work
-      surnames[names[name]].append(name)
+    data[fname] = lname
+    cont = raw_input("Do you want to enter another set of record? [Yes\\Quit] (Default is Yes) :")
+    
+    if cont.lower() == "quit":
+        break
+
+surdata = {}
+
+for key in data:
+    try: 
+        surdata[data[key]].append(key)
     except:
-      surnames[names[name]] = list
+        surdata[data[key]] = [key]
 
-for name in surnames:
-    print (name + "\t" + str(len(surnames[name])) + "\t\t" + str(surnames[name]))
 
+print (surdata)
