@@ -1,5 +1,11 @@
-def p():
-    return ("waaaah")
+class Ccoo(object):
+    def __init__(self):
+        self.lname = "Sen"
 
+    def pfname(self):
+        return ("Your name is " + self.lname)
 
-print (p())
+fname = "A"
+iname = Ccoo()
+mes = iname.pfname()
+print (fname + mes)
