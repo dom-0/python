@@ -1,6 +1,6 @@
-from Mod_Car import *
+import Mod_Car
 
-mycar = ElectricCars("Tesla", "Model X")
+mycar = Mod_Car.ElectricCars("Tesla", "Model X")
 
 mycar.desc()
 print (mycar.battery_info(7000))

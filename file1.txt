@@ -1,0 +1,5 @@
+In Python you have to be careful with variable declaration
+Python is simple
+Python is object oriented
+Python is modular
+Python is not confusing
