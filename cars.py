@@ -4,5 +4,5 @@ def cars (company, model="SX4", **extra_vars):
         print ("\t" + key + "\t\t" + value)
     print "\n"
 
-cars("BMW", "X5")
+cars("BMW", "X5", NO2='NO')
 cars("Mercedes", "SVR4", NO2='Yes', Engraved='With Name')
