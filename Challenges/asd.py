@@ -1,0 +1,7 @@
+
+text = '[{"id":704176,"time_took_ms":4218.368305,"name":"thing01"}{"id":890485,"time_took_ms":2612.126053,"name":"thing08"}{"id":146431,"time_took_ms":3976.173329,"name":"thing04"}{"time_took_ms":751.491283,"id":396461,"name":"thing02"}{"name":"thing08","time_took_ms":3717.034018,"id":779598}{"name":"thing06","id":463071,"time_took_ms":314.686094}{"id":126621,"time_took_ms":1607.914007,"name":"thing09"}{"id":575953,"time_took_ms":2537.223962,"name":"thing04"}{"time_took_ms":4410.455181,"id":272347,"name":"thing01"}{"name":"thing01","time_took_ms":3593.978099,"id":829360}{"name":"thing01","time_took_ms":2444.85699,"id":507208}{"name":"thing09","time_took_ms":4134.531298,"id":809317}{"name":"thing04","time_took_ms":3815.641114,"id":637160}{"name":"thing09","id":764595,"time_took_ms":4635.629356}{"time_took_ms":1605.210258,"id":112452,"name":"thing02"}{"name":"thing05","id":305668,"time_took_ms":2377.14685}{"id":781038,"time_took_ms":2761.102548,"name":"thing09"}{"time_took_ms":1261.156195,"id":471635,"name":"thing08"}{"name":"thing08","time_took_ms":3323.227587,"id":828352}{"name":"thing03","time_took_ms":3002.984445,"id":132121}]'
+
+list_ms = []
+
+for i in range(len(text)):
+    print(text[i][time_took_ms])

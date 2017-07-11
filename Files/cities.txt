@@ -1,0 +1,32 @@
+Amsterdam
+Bangalore
+New York
+Paris
+San Jose
+Tel Aviv
+  1 times 2 is 2
+  2 times 2 is 4
+  3 times 2 is 6
+  4 times 2 is 8
+  5 times 2 is 10
+  6 times 2 is 12
+  7 times 2 is 14
+  8 times 2 is 16
+  9 times 2 is 18
+ 10 times 2 is 20
+ 11 times 2 is 22
+ 12 times 2 is 24
+------------------------------
+001 times 2 is 2
+002 times 2 is 4
+003 times 2 is 6
+004 times 2 is 8
+005 times 2 is 10
+006 times 2 is 12
+007 times 2 is 14
+008 times 2 is 16
+009 times 2 is 18
+010 times 2 is 20
+011 times 2 is 22
+012 times 2 is 24
+------------------------------
